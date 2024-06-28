@@ -1,5 +1,11 @@
 import { Container } from "./styles";
+import { Button } from "../../components/Button";
+
 
 export function Details() {
-  return <Container>teste de som</Container>;
+  return (
+    <Container>
+      <Button />
+    </Container>
+  );
 }
