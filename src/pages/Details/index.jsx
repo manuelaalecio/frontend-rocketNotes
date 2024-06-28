@@ -5,7 +5,8 @@ import { Button } from "../../components/Button";
 export function Details() {
   return (
     <Container>
-      <Button />
+      <Button title="voltar" loading />
+      <Button title="cadastrar" />
     </Container>
   );
 }
