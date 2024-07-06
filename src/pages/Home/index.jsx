@@ -13,7 +13,7 @@ export function Home() {
 
       <Menu>
         <li>
-          <ButtonText title="Todos" isActive />
+          <ButtonText title="Todos" $isactive />
         </li>
         <li>
           <ButtonText title="React" />
