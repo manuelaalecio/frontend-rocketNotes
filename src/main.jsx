@@ -5,13 +5,13 @@ import GlobalStyles from "./styles/global";
 
 import theme from "./styles/theme";
 
-import { SingUp } from "./pages/SignUp";
+import { Profile } from "./pages/Profile";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <SingUp />
+      <Profile />
     </ThemeProvider>
   </React.StrictMode>
 );
